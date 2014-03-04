@@ -1,0 +1,155 @@
+This is pdfeTeX, Version 3.141592-1.11b-2.1 (MiKTeX 2.4) (preloaded format=latex 2005.1.18)  21 FEB 2006 13:54
+entering extended mode
+**spiro
+(spiro.tex{pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7m> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(C:\texmf\tex\latex\base\article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(C:\texmf\tex\latex\base\size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (C:\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+ (C:\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (C:\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(C:\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (spiro.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+(C:\texmf\tex\context\base\supp-pdf.tex (C:\texmf\tex\context\base\supp-mis.tex
+loading : Context Support Macros / Miscellaneous 
+\protectiondepth=\count88
+\scratchcounter=\count89
+\scratchtoks=\toks15
+\scratchdimen=\dimen105
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen106
+\minusone=\count90
+\thousandpoint=\dimen107
+\emptytoks=\toks16
+\nextbox=\box27
+\nextdepth=\dimen108
+\everyline=\toks17
+\!!counta=\count91
+\!!countb=\count92
+\recursecounter=\count93
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+ <new_screen.png, id=1, 355.3275pt x 283.81032pt>
+File: new_screen.png Graphic file (type png)
+ <use new_screen.png>
+[1
+
+{psfonts.map} <new_screen.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+ (C:\texmf\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+
+<math.pdf, id=19, 153.57375pt x 168.63pt>
+File: math.pdf Graphic file (type pdf)
+ <use math.pdf> [2 <math.pdf>]
+<lissajouse_screen.png, id=38, 450.18187pt x 247.67531pt>
+File: lissajouse_screen.png Graphic file (type png)
+
+<use lissajouse_screen.png>
+<decor5_screen.png, id=39, 424.58624pt x 245.41687pt>
+File: decor5_screen.png Graphic file (type png)
+ <use decor5_screen.png>
+<decor5.pdf, id=40, 284.52798pt x 113.8112pt>
+File: decor5.pdf Graphic file (type pdf)
+ <use decor5.pdf>
+<kvetina.pdf, id=41, 369.8869pt x 199.17009pt>
+File: kvetina.pdf Graphic file (type pdf)
+ <use kvetina.pdf>
+<meduza.pdf, id=42, 341.43358pt x 184.94295pt>
+File: meduza.pdf Graphic file (type pdf)
+ <use meduza.pdf>
+<other.pdf, id=43, 312.98131pt x 312.98131pt>
+File: other.pdf Graphic file (type pdf)
+ <use other.pdf> [3 <lissajouse_screen.png>] [4 <decor5_screen.png> <decor5.pdf
+
+Warning: pdflatex (file decor5.pdf): pdf inclusion: Page Group detected which p
+dfTeX can't handle. Ignoring it.
+> <kvetina.pdf
+Warning: pdflatex (file kvetina.pdf): pdf inclusion: Page Group detected which 
+pdfTeX can't handle. Ignoring it.
+>] [5 <meduza.pdf
+Warning: pdflatex (file meduza.pdf): pdf inclusion: Page Group detected which p
+dfTeX can't handle. Ignoring it.
+> <other.pdf
+Warning: pdflatex (file other.pdf): pdf inclusion: Page Group detected which pd
+fTeX can't handle. Ignoring it.
+>] [6
+
+] (spiro.aux) ) 
+Here is how much of TeX's memory you used:
+ 1020 strings out of 95508
+ 11335 string characters out of 1189595
+ 58650 words of memory out of 1061177
+ 4086 multiletter control sequences out of 35000
+ 7759 words of font info for 28 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 25i,9n,19p,546b,207s stack positions out of 1500i,500n,5000p,200000b,32768s
+ 368 PDF objects out of 65536
+ 0 named destinations out of 20000
+ 41 words of extra memory for PDF output out of 65536
+<cmcsc10.pfb><cmmi8.pfb><cmmi12.pfb><cmsy10.pfb><cmr8.pfb><cmr12
+.pfb><cmtt12.pfb><cmbx12.pfb>
+Output written on spiro.pdf (6 pages, 409555 bytes).

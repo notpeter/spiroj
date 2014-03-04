@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>SpiroJ</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1250">
+<LINK REV="made" HREF="mailto:frantiseg@centrum.cz">
+<META NAME="author" content="Frantisek Grebenicek">
+<META name="generator" content="jEdit">
+<LINK REL="StyleSheet" HREF="main.css"  TYPE="text/css" TITLE="Bezpatkový styl">
+</HEAD>
+<BODY>
+
+<h1><img src="spiro_icon.gif" alt="Icon" border=0 align="MIDDLE"> &nbsp; SpiroJ</h1> 
+
+<p><code>SpiroJ</code> is a simple generator of hypotrochoids and similar roulettes. The basic principle is rolling one circle on another circle. If you are interested in <a href="#math">mathematical details</a>, see <a href="http://www.wikipedia.org/">www.wikipedia.org</a>. SpiroJ tool is similar to the classic Spirograph toy, but it is more flexible. In addition, user can export generated roulettes to vector graphics, which can be imported to many graphic editors.</p>
+
+<ul>
+  <li><a href="#start">Getting started</a></li>
+  <li><a href="#export">Exporting image</a></li>
+  <li><a href="#math">How it works (mathematics)</a></li>
+  <li><a href="#examples">Examples</a></li>
+  <li><a href="#author">About author</a></li>
+</ul>
+
+<h2><a name="start">Getting Started</a></h2>
+
+Run the <code>SpiroJ</code> by clicking application JAR or using one of prepared batch files. You need Java<sup>TM</sup> Runtime Environment [2] Version 1.4.x. or later to run the application (Version <a href="http://java.sun.com/j2se/1.4.2/" title="Get from Sun Microsystems">JRE 1.4.2</a> is recommended). Select <code class="command">[File – New Design]</code> menu command. A default roulette should appear. Now you can try to change ratio value to 8 and press <code class="command">[Calc]</code> button, for example. Or try to decrease Rolling radius and calculate the roulette
+again. You can play with basic parameters and observe, how the shape
+changes.
+
+<p class="figure">
+  <img src="new_screen.png" alt="Screen-shot" border=0><br>
+  <b>Fig. 1:</b> New <code>SpiroJ</code> design
+</p>
+
+Now, you can switch to the advanced tab and try more complex parameter adjustment. For your inspiration, you can load one of many example shapes from the <code>example</code> directory. If you want to understand details, please read <a href="#math">mathematic description</a>.
+
+<h2><a name="export">Exporting Image</a></h2>
+
+<p>Current version of <code>SpiroJ</code> can export to three vector formats:
+<ul>
+  <li>Scalable Vector Graphics (SVG) -- based on XML and supported by <a href="http://www.w3.org/Graphics/SVG/" title="SVG specification">W3C</a>. It becomes the internet standard for vector graphics.</li>
+  <li>Encapsulated Postscript (EPS) -- standard vector graphics format, can be imported by <a href="http://www.xara.com/" title="Web Graphics Software by Xara">Xara</a>.</li>
+  <li>Adobe Illustrator 3.0 (AI) -- similar to EPS, also can be imported by Xara.</li>
+</ul>
+</p>
+
+<h2><a name="math">Mathematics</a></h2>
+
+In the <code>SpiroJ</code> application, the roulette is generated using cascade of two rotating operators (see Fig. 2). In basic mode (1), only radius <span class="math">r</span> of each rotation and frequency relation between them can be adjusted. In advanced mode (2), radius and frequency for <span class="math">x</span> and <span class="math">y</span> axis can be adjusted separately for each rotation.
+
+<p class="figure">
+  <img src="math.gif" alt="Scheme" border=0><br>
+  <b>Fig. 2:</b> Double rotation
+</p>
+
+<p class="formula">
+  <img alt="Formula" src="formula1.gif" align="middle" border="0"> &nbsp; (1)<br>
+   <img alt="Formula" src="formula2.gif" align="middle" border="0"> &nbsp; (2)
+</p>
+
+The <code>SpiroJ</code> user interface allows to edit only two rotating operators, but if you are familiar with XML, you can add more rotating operators to the chain by editing the XML and loading it into the application. In this case, you should understand what you are doing, of course.
+
+<h2><a name="examples">Examples</a></h2>
+
+<p>You can emulate some classical curves. For example: switch to advanced mode and set <span class="math">X</span> radius to 60, <span class="math">Y</span> radius to 0 and both frequencies to 1 for fixed cycle, set <span class="math">X</span> radius to 0, <span class="math">Y</span> radius to 30 and both frequencies to 3 for rolling cycle, number of steps to 100, and you get a typical Lissajouse curve (<code>examples/lissajouse.xml</code>), see figure 3.</p>
+
+<p class="figure">
+  <img src="lissajouse_screen.png" alt="Screen-shot" border=0><br>
+  <b>Fig. 3:</b> Screen-shot: lissajouse.xml
+</p>
+
+<p>In the advanced mode, you can create very strange shapes. In the figure 4 you can see screen-shot of the <code>SpiroJ</code> and in the next figure is the same shape imported into Xara and slightly improved.</p>
+
+<p class="figure">
+  <img src="decor5_screen.png" alt="Screen-shot" border=0><br>
+  <b>Fig. 4:</b> Screen-shot: decor5.xml
+</p>
+
+<p class="figure">
+  <img src="decor5.gif" alt="Export" border=0><br>
+  <b>Fig. 5:</b> Export from Xara: decor5.gif
+</p>
+
+<p class="figure">
+  <img src="other.gif" alt="Export" border=0><br>
+  <b>Fig. 6:</b> Other examples
+</p>
+
+<h2><a name="author">About Author</h2>
+<p>Author of <code>SpiroJ</code>, <b>František Grebeníček</b> is a software developer. His favourite programming language is Java. If you like this application, do not hesitate to send him a <a href="mailto:frantisek.grebenicek&#064;&#103;&#109;&#097;&#105;&#108;.com?subject=SpiroJ" title="František Grebeníček">complimentary email</a> :-)</p>
+
+</BODY>
+</HTML>
+
