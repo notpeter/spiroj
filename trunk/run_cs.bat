@@ -1,0 +1,1 @@
+java -Duser.language=cs -Duser.country=CZ -Dfile.encoding=Cp1250 -jar SpiroJ.jar

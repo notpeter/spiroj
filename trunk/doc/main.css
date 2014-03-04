@@ -1,0 +1,36 @@
+body {
+  font-family : Verdana CE, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+p,td {
+  font-size: 12px;
+}
+
+code.command {
+  font-weight: bold;
+}
+
+.category {
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.item {
+  vertical-align: top;
+}
+
+.figure {
+  text-align: center;
+  font-style: italic;
+}
+
+.formula {
+  text-align: center;
+}
+
+.math {
+  font-family: Times New Roman, Times, serif;
+  font-style: italic;
+  font-size: 14px;
+}
