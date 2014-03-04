@@ -1,0 +1,174 @@
+/**
+ * Main application resources
+ */
+
+options {
+	unsaved-warn: yes;
+	new-pattern: "/resources/new.xml";
+}
+
+frg.spiro.App {
+	title: "SpiroJ: {0}";
+	no-file: ádnı soubor;
+  icon: "/resources/spiro_icon.gif";
+	fileMenu-text: Soubor;
+	fileMenu-mnemonic: B;
+	editMenu-text: Spiro;
+	editMenu-mnemonic: S;
+}
+
+design.open {
+	extension: .xml;
+	description: Spiro Design (*.xml);
+	approve: Otevøít Design;
+}
+
+design.saveAs {
+	approve: Uloit jako...;
+}
+
+svg.export {
+	extension: .svg;
+	description: Scalable Vector Graphics (*.svg);
+	approve: Export;
+}
+
+frg.spiro.About {
+	icon: "/resources/spiro_icon.gif"; 
+	title: "Aplikace {0}";
+	msg: "<HTML><b>{0}</b> Verze: {1} (c) 2005 FrG.<BR>Jednoduchı generátor hypotrochoidù (cykloid) a podobnıch køivek.</HTML>";
+}
+
+frg.spiro.App$ActionExit {
+  name: Ukonèit;
+  tip:  Ukonèit aplikaci;
+  key:  alt X;
+  icon: "/resources/blank24.gif";
+}
+
+frg.spiro.App$ActionNewXml {
+  name: Novı design;
+  tip:  Vytvoøit novı vıchozí návrh;
+  key:  control N;
+  icon: "/resources/new.gif";
+}
+
+frg.spiro.App$ActionOpenXml {
+  name: Otevøít design;
+  tip:  Otevøít XML popis designu SpiroJ;
+  key:  control O;
+  icon: "/resources/open.gif";
+}
+
+frg.spiro.App$ActionSaveXml {
+  name: Uloit design;
+  tip:  Uloit XML popis designu SpiroJ;
+  key:  control S;
+  icon: "/resources/save.gif";
+}
+
+frg.spiro.App$ActionSaveXmlAs {
+  name: Uloit jako...;
+  tip:  Uloit XML jako novı soubor;
+  key:  control shift S;
+  icon: "/resources/save.gif";
+}
+
+frg.spiro.App$ActionExport {
+  name: Export;
+  tip:  Exportovat obrazec do vybraného formátu;
+  key:  control shift E;
+  icon: "/resources/export16.gif";
+}
+
+frg.spiro.App$ActionCalc {
+  name: Pøepoèítat;
+  tip:  Pøepoèítat obrazec podle aktuálních nastavení;
+  key:  control R;
+  icon: "/resources/robot16.gif";
+}
+
+/* Simple dialogs */
+
+SaveConfirm {
+  title:  Potvrdit uloení;
+  msg:    "<HTML>Aktuální desing <B>{0}</B> byl modifikován.<BR> Ukonèení aplikace bez uloení bude mít za následek ztrátu provedenıch zmìn. Chcete design uloit?</HTML>";
+  yes:    Uloit;
+  no:     Neukládat;
+  cancel: Zpìt;
+}
+
+IOException {
+	title: "Chyba ètení/zápisu";
+	msg:   "<HTML>{0}</HTML>";
+}
+
+SAXParseException {
+	title: Chyba ètení XML;
+	msg:   "<HTML><B>Parsing error</B><BR>Line: {0,number,integer}<BR>Uri: {1}<BR>{2}</HTML>";
+}
+
+/* EditPanel */
+
+frg.spiro.EditPanel {
+	btCalc-text: Pøepoèítat;
+	btCalc-tip: Aplikovat nastavení a pøepoèítat køivku;
+	btExport-text: Export;
+	btExport-tip: Export vypoèítanou køivku do souboru;
+	/* basic editor */
+	basicEditor-title: Základní;
+	lbFixedRadius-text: Pevnı polomìr:;
+	lbFixedRadius-tip: Polomìr pevné krunice [body];
+	lbRollingRadius-text: Rotující polomìr:;
+	lbRollingRadius-tip: Polomìr rotující krunice [body];
+	lbRatio-text: Pomìr;
+	lbRatio-tip: Pomìr rotací;
+	/* advanced editor */
+	advancedEditor-title: Pokroèilé;
+	fixedRadiusPanel-title: Pevná krunice;
+	rollingRadiusPanel-title: Rotující krunice;
+	advanced-rx-text: X: polomìr;
+	advanced-fx-text: frekv;
+	advanced-ry-text: Y: polomìr;
+	advanced-fy-text: frekv;
+	lbAngleSteps-text: Kroky:;
+  lbAngleSteps-tip: "Poèet krokù vıpoètu (dìlení intervalu 2*PI)";
+}
+
+/* Line properties */
+
+frg.spiro.LineProperties {
+	btLineColor-title: Vıbìr barvy èáry;
+	btFillColor-title: Vıbìr barvy vıplnì;
+	lbLine-text: "Èára: ";
+	tfLineWidth-tip: "Tlouška èáry (pt)";
+}
+
+/* Help viewer */
+
+frg.gui.Help {
+	title: Nápovìda k SpiroJ;
+	icon: "/resources/iconInfo16.gif";
+	url: "/doc/content.html";
+}
+
+frg.gui.Help$ActionNext {
+	name: Forward;
+  tip:  Forward in history;
+  key:  alt RIGHT;
+  icon: "/resources/forward24.gif";
+}
+
+frg.gui.Help$ActionBack {
+	name: Back;
+  tip:  Back to the previous page;
+  key:  alt LEFT;
+  icon: "/resources/back24.gif";
+}
+
+frg.gui.Help$ActionHome {
+	name: Home;
+  tip:  Back to the home page;
+  key:  alt HOME;
+  icon: "/resources/home24.gif";
+}

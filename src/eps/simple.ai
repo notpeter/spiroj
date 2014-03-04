@@ -1,0 +1,27 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 0 0 320 240
+%%EndComments
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+
+0.5 0.5 0 0 k
+0 0 0 1 K
+
+100 100 m
+200 100 l
+200 200 l
+100 200 l
+b
+
+0 0.5 0.7 0.1 k
+0 0 0 1 K
+
+130 130 m
+230 130 l
+230 230 l
+130 230 l
+b
+
+%%Trailer
+%%EOF

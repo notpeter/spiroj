@@ -1,0 +1,174 @@
+/**
+ * Main application resources
+ */
+
+options {
+	unsaved-warn: yes;
+	new-pattern: "/resources/new.xml";
+}
+
+frg.spiro.App {
+	title: "SpiroJ: {0}";
+	no-file: no file;
+  icon: "/resources/spiro_icon.gif";
+	fileMenu-text: File;
+	fileMenu-mnemonic: F;
+	editMenu-text: Spiro;
+	editMenu-mnemonic: S;
+}
+
+design.open {
+	extension: .xml;
+	description: Spiro Design (*.xml);
+	approve: Open Design;
+}
+
+design.saveAs {
+	approve: Save as...;
+}
+
+svg.export {
+	extension: .svg;
+	description: Scalable Vector Graphics (*.svg);
+	approve: Export;
+}
+
+frg.spiro.About {
+	icon: "/resources/spiro_icon.gif"; 
+	title: "About {0}";
+	msg: "<HTML><b>{0}</b> Version: {1} (c) 2005 FrG.<BR>Simple generator of hypotrochoids and similar roulettes.</HTML>";
+}
+
+frg.spiro.App$ActionExit {
+  name: Exit;
+  tip:  Close the application;
+  key:  alt X;
+  icon: "/resources/blank24.gif";
+}
+
+frg.spiro.App$ActionNewXml {
+  name: New Design;
+  tip:  Create a new default design;
+  key:  control N;
+  icon: "/resources/new.gif";
+}
+
+frg.spiro.App$ActionOpenXml {
+  name: Open Design;
+  tip:  Open XML description of SpiroJ design;
+  key:  control O;
+  icon: "/resources/open.gif";
+}
+
+frg.spiro.App$ActionSaveXml {
+  name: Save Design;
+  tip:  Save XML description of SpiroJ design;
+  key:  control S;
+  icon: "/resources/save.gif";
+}
+
+frg.spiro.App$ActionSaveXmlAs {
+  name: Save Design As...;
+  tip:  Save XML as a new file;
+  key:  control shift S;
+  icon: "/resources/save.gif";
+}
+
+frg.spiro.App$ActionExport {
+  name: Export;
+  tip:  Export shape in specified format;
+  key:  control shift E;
+  icon: "/resources/export16.gif";
+}
+
+frg.spiro.App$ActionCalc {
+  name: Re-calculate;
+  tip:  Re-calculate shape according to current settings;
+  key:  control R;
+  icon: "/resources/robot16.gif";
+}
+
+/* Simple dialogs */
+
+SaveConfirm {
+  title:  Save confirmation;
+  msg:    "<HTML>The current design <B>{0}</B> was modified.<BR> Closing it without saving will discard changes. Do you want to save it?</HTML>";
+  yes:    Save;
+  no:     Don't save;
+  cancel: Cancel;
+}
+
+IOException {
+	title: "Read/Write Error";
+	msg:   "<HTML>{0}</HTML>";
+}
+
+SAXParseException {
+	title: XML load error;
+	msg:   "<HTML><B>Parsing error</B><BR>Line: {0,number,integer}<BR>Uri: {1}<BR>{2}</HTML>";
+}
+
+/* EditPanel */
+
+frg.spiro.EditPanel {
+	btCalc-text: Calc;
+	btCalc-tip: Apply settings and calculate the roulette;
+	btExport-text: Export;
+	btExport-tip: Export calculated roulette to a file;
+	/* basic editor */
+	basicEditor-title: Basic;
+	lbFixedRadius-text: Fixed radius:;
+	lbFixedRadius-tip: Radius of fixed cycle [points];
+	lbRollingRadius-text: Rolling radius:;
+	lbRollingRadius-tip: Radius of rolling cycle [points];
+	lbRatio-text: Ratio;
+	lbRatio-tip: Rolling ratio;
+	/* advanced editor */
+	advancedEditor-title: Advanced;
+	fixedRadiusPanel-title: Fixed cycle;
+	rollingRadiusPanel-title: Rolling cycle;
+	advanced-rx-text: X: radius;
+	advanced-fx-text: freq;
+	advanced-ry-text: Y: radius;
+	advanced-fy-text: freq;
+	lbAngleSteps-text: Steps:;
+  lbAngleSteps-tip: "Number of computation steps (divisions of 2*PI)";
+}
+
+/* Line properties */
+
+frg.spiro.LineProperties {
+	btLineColor-title: Choose line color;
+	btFillColor-title: Choose fill color;
+	lbLine-text: "Line: ";
+	tfLineWidth-tip: "Line width (pt)";
+}
+
+/* Help viewer */
+
+frg.gui.Help {
+	title: SpiroJ help;
+	icon: "/resources/iconInfo16.gif";
+	url: "/doc/content.html";
+}
+
+frg.gui.Help$ActionNext {
+	name: Forward;
+  tip:  Forward in history;
+  key:  alt RIGHT;
+  icon: "/resources/forward24.gif";
+}
+
+frg.gui.Help$ActionBack {
+	name: Back;
+  tip:  Back to the previous page;
+  key:  alt LEFT;
+  icon: "/resources/back24.gif";
+}
+
+frg.gui.Help$ActionHome {
+	name: Home;
+  tip:  Back to the home page;
+  key:  alt HOME;
+  icon: "/resources/home24.gif";
+}
