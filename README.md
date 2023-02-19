@@ -9,17 +9,17 @@ It can export drawing to SVG, EPS and AI formats.
 
 Created by [František Grebeníček](https://github.com/fgrebenicek).
 Originally released on sourceforge in 2014 and migrated to GitHub in 2023.
-License: Public Domain
-
 It is not under active development, but shared here for posterity.
+License: Public Domain.
 
 ## Links
 
-[SpiroJ PDF Documentation](tex/spiro.pdf)
-[SpiroJ HTML Documentation](doc/index.html)
-[SpiroJ on SourceForge](https://sourceforge.net/projects/spiroj/)
+* [SpiroJ PDF Documentation](tex/spiro.pdf)
+* [SpiroJ HTML Documentation](doc/index.html)
+* [SpiroJ on SourceForge](https://sourceforge.net/projects/spiroj/)
 
 ## Screenshots
 
 ![](doc/new_screen.png)
+
 ![](doc/decor5_screen.png)
